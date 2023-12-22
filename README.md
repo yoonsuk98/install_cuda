@@ -31,9 +31,36 @@ nvidia-smi
 ```
 <img width = "550" alt ="Screenshot from 2023-09-03 22-34-42" src="https://github.com/yoonsuk98/install_cuda/assets/125951880/c2a94461-3fcd-4c05-90f2-92bdf961925c">
 
-## 3. CUDA 설치
-### cuda version에 맞춰서 진행
+## 3. CUDA 설치(버전에 맞춰 진행)
 <https://developer.nvidia.com/cuda-toolkit-archive> 링크로 이동 후 해당 버전 클릭
+<img width = "550" alt ="Screenshot from 2023-09-03 22-47-32" src="https://github.com/yoonsuk98/install_cuda/assets/125951880/836a0bad-a28f-41e4-8bfa-ee37095473ca">
 
-![Screenshot from 2023-09-03 22-47-32](https://github.com/yoonsuk98/install_cuda/assets/125951880/836a0bad-a28f-41e4-8bfa-ee37095473ca)
-![Screenshot from 2023-09-03 22-48-31](https://github.com/yoonsuk98/install_cuda/assets/125951880/55d02499-2d90-4c72-819d-52c6e9e7e293)
+아래와 같이 터미널창에 명령어 입력
+<img width = "550" alt ="Screenshot from 2023-09-03 22-48-31" src="https://github.com/yoonsuk98/install_cuda/assets/125951880/55d02499-2d90-4c72-819d-52c6e9e7e293">
+```
+wget https://developer.download.nvidia.com/compute/cuda/12.2.2/local_installers/cuda_12.2.2_535.104.05_linux.run
+```
+```
+# 파일 권한 설정
+sudo chmod 777 cuda_12.2.2_535.104.05_linux.run
+
+# 관리자 권한으로 실행
+sudo ./cuda_12.2.2_535.104.05_linux.run
+
+```
+조금 기다리면 화면이 나오는데 continue 클릭 → accept입력 → cuda toolkit 제외 전부 x해제 → install 입력 후 기다리면 설치 완료
+
+```
+sudo nano ~/.bashrc
+
+# 본인 버전에 맞춰 변경
+export PATH=/usr/local/cuda-12.2/bin${PATH:+:${PATH}} 
+export LD_LIBRARY_PATH=/usr/local/cuda-12.2/lib64\${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+```
+```
+# 재부팅 후
+nvcc -V
+```
+
+
+
