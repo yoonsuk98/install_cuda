@@ -10,6 +10,7 @@ cuDNN을 사용하기 위해 Cuda가 필요하고 Cuda를 사용하기 위해서
 관련 cuda 버전이 나오는데 이를 확인 후 해당 버전을 설치하면 된다.
 
 ## 1. Graphic 카드 버전확인
+
 <details>
 <summary>## 버전 확인</summary>
 <div markdown="1">
