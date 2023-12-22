@@ -12,7 +12,7 @@ cuDNN을 사용하기 위해 Cuda가 필요하고 Cuda를 사용하기 위해서
 ## 1. Graphic 카드 버전확인
 
 <details>
-<summary>코드</summary>
+<summary> </summary>
 <div markdown="1">
    
 ```
