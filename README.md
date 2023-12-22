@@ -10,9 +10,9 @@ cuDNN을 사용하기 위해 Cuda가 필요하고 Cuda를 사용하기 위해서
 관련 cuda 버전이 나오는데 이를 확인 후 해당 버전을 설치하면 된다.
 
 1. Graphic 카드 버전 확인
-   lspci | grep -i VGA
+    lspci | grep -i VGA
    
-2. Nvidia-Driver 설치
-   sudo add-apt-repository ppa:graphics-drivers/ppa
-   sudo apt update
-   sudo apt install nvidia-driver-535 
+3. Nvidia-Driver 설치
+    sudo add-apt-repository ppa:graphics-drivers/ppa
+    sudo apt update
+    sudo apt install nvidia-driver-535 
