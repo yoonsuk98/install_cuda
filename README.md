@@ -20,7 +20,8 @@ sudo add-apt-repository ppa:graphics-drivers/ppa;
 sudo apt update;
 sudo apt install nvidia-driver-535 ;
 ```
-  설치확인
+
+설치확인
 ```
 nvidia-smi
 ```
