@@ -97,7 +97,9 @@ sudo apt-get install libcudnn8-samples=8.9.4.25-1+cuda12.2
 
 ```
 # 잘 설치되었는지 확인
+
 sudo find /usr/ -name "cudnn_version.h" # cudnn_version.h 파일 찾아서
 cat /usr/include/cudnn_version.h | grep CUDNN_MAJOR -A 2 # 찾은 파일경로로 바꾼 후 확인
 ```
+<img width = "550" alt ="Screenshot from 2023-09-03 22-34-50" src="https://github.com/yoonsuk98/install_cuda/assets/125951880/a101db8e-f402-42bd-ae86-1737ad957a54">
 
