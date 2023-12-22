@@ -29,7 +29,7 @@ sudo apt install nvidia-driver-535
 
 nvidia-smi
 ```
-<img width = "300" alt ="Screenshot from 2023-09-03 22-34-42" src="https://github.com/yoonsuk98/install_cuda/assets/125951880/c2a94461-3fcd-4c05-90f2-92bdf961925c">
+<img width = "450" alt ="Screenshot from 2023-09-03 22-34-42" src="https://github.com/yoonsuk98/install_cuda/assets/125951880/c2a94461-3fcd-4c05-90f2-92bdf961925c">
 
 ## 3. CUDA 설치
 ### cuda version에 맞춰서 진행
