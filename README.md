@@ -69,6 +69,8 @@ nvcc -V
 
 <img width = "550" alt ="Screenshot from 2023-09-03 23-01-47" src="https://github.com/yoonsuk98/install_cuda/assets/125951880/cdb2041c-729f-466d-ae92-273e249fa56f">
 
+![Screenshot from 2023-09-03 23-01-47](https://github.com/yoonsuk98/install_cuda/assets/125951880/cdb2041c-729f-466d-ae92-273e249fa56f)
+
 그럼 위와 같은 그림이 나오는데 우리는 ubuntu(deb)버전을 다운로드한다.
 
 ```
