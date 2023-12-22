@@ -14,10 +14,15 @@ cuDNN을 사용하기 위해 Cuda가 필요하고 Cuda를 사용하기 위해서
 lspci | grep -i VGA
 ```
    
-3. Nvidia-Driver 설치
+2. Nvidia-Driver 설치
 ```
 sudo add-apt-repository ppa:graphics-drivers/ppa;
 sudo apt update;
 sudo apt install nvidia-driver-535 ;
 ```
-   
+  설치확인
+```
+nvidia-smi
+```
+
+3. 
