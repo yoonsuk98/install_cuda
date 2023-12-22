@@ -103,3 +103,6 @@ cat /usr/include/cudnn_version.h | grep CUDNN_MAJOR -A 2 # 찾은 파일경로�
 ```
 <img width = "550" alt ="Screenshot from 2023-09-03 22-34-50" src="https://github.com/yoonsuk98/install_cuda/assets/125951880/a101db8e-f402-42bd-ae86-1737ad957a54">
 
+
+
+
