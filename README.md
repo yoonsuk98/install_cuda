@@ -59,10 +59,13 @@ export PATH=/usr/local/cuda-12.2/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-12.2/lib64\${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 ```
 ```
-# 재부팅 후
+# 재부팅 후 버전이 잘 설치되었는지 확인
 nvcc -V
 ```
 <img width = "550" alt ="Screenshot from 2023-09-03 22-35-05" src="https://github.com/yoonsuk98/install_cuda/assets/125951880/32958e55-7074-4b30-a961-933225e91e15">
+
+## 4. cuDNN 설치
+<https://developer.nvidia.com/cudnn> 링크로 이후 cuDNN Download 클릭 -> 회원가입 후 로그인
 
 
 
