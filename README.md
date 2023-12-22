@@ -9,11 +9,17 @@ cuDNN을 사용하기 위해 Cuda가 필요하고 Cuda를 사용하기 위해서
 이에 여러 어려움을 없애고자 일단 본인 그래픽카드와 관련된 nvidia-driver를 찾아서 설치하면,
 관련 cuda 버전이 나오는데 이를 확인 후 해당 버전을 설치하면 된다.
 
-## 1. Graphic 카드 버전 확인
+<details>
+<summary>## 1. Graphic 카드 버전 확인</summary>
+<div markdown="1">
+
+
 ```
 lspci | grep -i VGA
 ```
 
+</div>
+</details>
    
 ## 2. Nvidia-Driver 설치
 ```
