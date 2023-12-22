@@ -23,6 +23,10 @@ lspci | grep -i VGA
 </details>
    
 ## 2. Nvidia-Driver 설치
+<details>
+<summary> 코드 </summary>
+<div markdown="1">
+
 ```
 # 본인이 설치해야할 드라이버 버전 숫자 변경
 # 설치 중 블랙스크린 나올 가능성 존재. 그러나 당황하지 말고 블랙스크린상태에서 약 3분정도 기다린 후 강제종료 후 재부팅 진행 
@@ -39,6 +43,8 @@ nvidia-smi
 ```
 <img width = "550" alt ="Screenshot from 2023-09-03 22-34-42" src="https://github.com/yoonsuk98/install_cuda/assets/125951880/c2a94461-3fcd-4c05-90f2-92bdf961925c">
 
+</div>
+</details>
 
 ## 3. CUDA 설치(버전에 맞춰 진행)
 <https://developer.nvidia.com/cuda-toolkit-archive> 링크로 이동 후 해당 버전 클릭
