@@ -13,6 +13,7 @@ cuDNN을 사용하기 위해 Cuda가 필요하고 Cuda를 사용하기 위해서
 ```
 lspci | grep -i VGA
 ```
+
    
 ## 2. Nvidia-Driver 설치
 ```
@@ -30,6 +31,7 @@ sudo apt install nvidia-driver-535
 nvidia-smi
 ```
 <img width = "550" alt ="Screenshot from 2023-09-03 22-34-42" src="https://github.com/yoonsuk98/install_cuda/assets/125951880/c2a94461-3fcd-4c05-90f2-92bdf961925c">
+
 
 ## 3. CUDA 설치(버전에 맞춰 진행)
 <https://developer.nvidia.com/cuda-toolkit-archive> 링크로 이동 후 해당 버전 클릭
@@ -64,12 +66,11 @@ nvcc -V
 ```
 <img width = "550" alt ="Screenshot from 2023-09-03 22-35-05" src="https://github.com/yoonsuk98/install_cuda/assets/125951880/32958e55-7074-4b30-a961-933225e91e15">
 
+
 ## 4. cuDNN 설치
 <https://developer.nvidia.com/cudnn> 링크로 이후 cuDNN Download 클릭 -> 회원가입 후 로그인
 
 <img width = "550" alt ="Screenshot from 2023-09-03 23-01-47" src="https://github.com/yoonsuk98/install_cuda/assets/125951880/cdb2041c-729f-466d-ae92-273e249fa56f">
-
-![Screenshot from 2023-09-03 23-01-47](https://github.com/yoonsuk98/install_cuda/assets/125951880/cdb2041c-729f-466d-ae92-273e249fa56f)
 
 그럼 위와 같은 그림이 나오는데 우리는 ubuntu(deb)버전을 다운로드한다.
 
@@ -94,4 +95,9 @@ sudo apt-get install libcudnn8-dev=8.9.4.25-1+cuda12.2
 sudo apt-get install libcudnn8-samples=8.9.4.25-1+cuda12.2
 ```
 
+```
+# 잘 설치되었는지 확인
+sudo find /usr/ -name "cudnn_version.h" # cudnn_version.h 파일 찾아서
+cat /usr/include/cudnn_version.h | grep CUDNN_MAJOR -A 2 # 찾은 파일경로로 바꾼 후 확인
+```
 
