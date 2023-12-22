@@ -19,7 +19,6 @@ lspci | grep -i VGA
 # 본인이 설치해야할 드라이버 버전 숫자 변경
 # 설치 중 블랙스크린 나올 가능성 존재. 그러나 당황하지 말고 블랙스크린상태에서 약 3분정도 기다린 후 강제종료 후 재부팅 진행 
 # 이후 아래 nvida-smi를 터머닐 창에 입력 후 확인
-```
 sudo add-apt-repository ppa:graphics-drivers/ppa;
 sudo apt update;
 sudo apt install nvidia-driver-535 ;
