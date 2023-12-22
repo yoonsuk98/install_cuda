@@ -62,6 +62,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda-12.2/lib64\${LD_LIBRARY_PATH:+:${LD_LIBRA
 # 재부팅 후
 nvcc -V
 ```
+<img width = "550" alt ="Screenshot from 2023-09-03 22-35-05" src="https://github.com/yoonsuk98/install_cuda/assets/125951880/32958e55-7074-4b30-a961-933225e91e15">
 
 
 
