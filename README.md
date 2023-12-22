@@ -159,4 +159,4 @@ pip install torch==2.0.1+cu118 torchvision -f https://download.pytorch.org/whl/t
 </details>
 
 문제없이 잘 작동한다.
-![Untitled](https://github.com/yoonsuk98/install_cuda/assets/125951880/3b969206-2bd7-4e2d-b1a0-5d65146f4274)
+<img width = "550" alt ="Untitled" src="https://github.com/yoonsuk98/install_cuda/assets/125951880/3b969206-2bd7-4e2d-b1a0-5d65146f4274">
