@@ -40,16 +40,15 @@ nvidia-smi
 ```
 wget https://developer.download.nvidia.com/compute/cuda/12.2.2/local_installers/cuda_12.2.2_535.104.05_linux.run
 ```
+
 ```
 # 파일 권한 설정
 sudo chmod 777 cuda_12.2.2_535.104.05_linux.run
 
 # 관리자 권한으로 실행
 sudo ./cuda_12.2.2_535.104.05_linux.run
-
 ```
 조금 기다리면 화면이 나오는데 continue 클릭 → accept입력 → cuda toolkit 제외 전부 x해제 → install 입력 후 기다리면 설치 완료
-
 ```
 sudo nano ~/.bashrc
 
