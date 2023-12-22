@@ -9,9 +9,9 @@ cuDNN을 사용하기 위해 Cuda가 필요하고 Cuda를 사용하기 위해서
 
 나의 설치 버전
 
-GPU : NVIDIA Geforce GTX 4070
+GPU - NVIDIA Geforce GTX 4070
 
-nvida driver version : 535.104.05
+nvida driver version - 535.104.05
 
 cuda version : 12.2
 
