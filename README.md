@@ -47,6 +47,10 @@ nvidia-smi
 </details>
 
 ## 3. CUDA 설치(버전에 맞춰 진행)
+<details>
+<summary> 코드 </summary>
+<div markdown="1">
+
 <https://developer.nvidia.com/cuda-toolkit-archive> 링크로 이동 후 해당 버전 클릭
 <img width = "550" alt ="Screenshot from 2023-09-03 22-47-32" src="https://github.com/yoonsuk98/install_cuda/assets/125951880/836a0bad-a28f-41e4-8bfa-ee37095473ca">
 
@@ -79,8 +83,15 @@ nvcc -V
 ```
 <img width = "550" alt ="Screenshot from 2023-09-03 22-35-05" src="https://github.com/yoonsuk98/install_cuda/assets/125951880/32958e55-7074-4b30-a961-933225e91e15">
 
+</div>
+</details>
+
 
 ## 4. cuDNN 설치
+<details>
+<summary> 코드 </summary>
+<div markdown="1">
+
 <https://developer.nvidia.com/cudnn> 링크로 이후 cuDNN Download 클릭 -> 회원가입 후 로그인
 
 <img width = "550" alt ="Screenshot from 2023-09-03 23-01-47" src="https://github.com/yoonsuk98/install_cuda/assets/125951880/cdb2041c-729f-466d-ae92-273e249fa56f">
@@ -115,6 +126,9 @@ sudo find /usr/ -name "cudnn_version.h" # cudnn_version.h 파일 찾아서
 cat /usr/include/cudnn_version.h | grep CUDNN_MAJOR -A 2 # 찾은 파일경로로 바꾼 후 확인
 ```
 <img width = "550" alt ="Screenshot from 2023-09-03 22-34-50" src="https://github.com/yoonsuk98/install_cuda/assets/125951880/a101db8e-f402-42bd-ae86-1737ad957a54">
+
+</div>
+</details>
 
 
 
