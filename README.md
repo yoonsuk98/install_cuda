@@ -38,6 +38,7 @@ nvidia-smi
 아래와 같이 터미널창에 명령어 입력
 
 <img width = "550" alt ="Screenshot from 2023-09-03 22-48-31" src="https://github.com/yoonsuk98/install_cuda/assets/125951880/55d02499-2d90-4c72-819d-52c6e9e7e293">
+
 ```
 wget https://developer.download.nvidia.com/compute/cuda/12.2.2/local_installers/cuda_12.2.2_535.104.05_linux.run
 ```
