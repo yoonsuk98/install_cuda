@@ -67,5 +67,29 @@ nvcc -V
 ## 4. cuDNN 설치
 <https://developer.nvidia.com/cudnn> 링크로 이후 cuDNN Download 클릭 -> 회원가입 후 로그인
 
+<img width = "550" alt ="Screenshot from 2023-09-03 23-01-47" src="https://github.com/yoonsuk98/install_cuda/assets/125951880/cdb2041c-729f-466d-ae92-273e249fa56f">
+
+그럼 위와 같은 그림이 나오는데 우리는 ubuntu(deb)버전을 다운로드한다.
+
+```
+# 다운받은 디렉토리에서 진행
+
+# 다운받은 레포지토리 활성화
+sudo dpkg -i cudnn-local-repo-ubuntu2004-8.9.4.25_1.0-1_amd64.deb 
+
+# cuda gpg 키 가져오기
+sudo cp /var/cudnn-local-repo-ubuntu2004-8.9.4.25/cudnn-local-4A5BA598-keyring.gpg /usr/share/keyrings/
+
+sudo apt-get update
+
+# 런타임 라이브러리 설치
+sudo apt-get install libcudnn8=8.9.4.25-1+cuda12.2
+
+# 개발자 라이브러리 설치
+sudo apt-get install libcudnn8-dev=8.9.4.25-1+cuda12.2
+
+# 코드 샘플 설치
+sudo apt-get install libcudnn8-samples=8.9.4.25-1+cuda12.2
+```
 
 
