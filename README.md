@@ -142,7 +142,7 @@ cat /usr/include/cudnn_version.h | grep CUDNN_MAJOR -A 2 # 찾은 파일경로�
 
 
 ## 5. yolo 이용시 Cuda 버전 문제 발생시
-우리가 설치한 cuda 버전은 12.2버전, 파이토치는 cuda 11.8버전까지 지원, 이에 임의로 버전을 변경하는 작업을 진행
+우리가 설치한 cuda 버전은 12.2버전, yolo는 cuda 11.8버전까지 지원, 이에 임의로 버전을 변경하는 작업을 진행
 문제없이 잘 작동한다.
 <details>
 <summary> 코드 </summary>
